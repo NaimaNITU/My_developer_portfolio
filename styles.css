@@ -1,0 +1,31 @@
+/* Header releted styles */
+.my_first_name {
+    font-size: 45px;
+    font-style: bold;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.letter_i_style {
+    color: #FD6E0A;
+}
+
+.hire_me_btn {
+    background-color: #FD6E0A;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 15px;
+    border: 0;
+    border-radius: 4px;
+    padding: 10px 20px;
+}
+
+.header_nav {
+    display: flex;
+}
+
+nav> .li_nav {
+    display: flex;
+    list-style: none;
+    padding-left: 40px;
+}
