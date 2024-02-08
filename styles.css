@@ -1,9 +1,9 @@
-/* Header releted styles */
+/* Header-navigation releted styles */
 .my_first_name {
-    font-size: 45px;
+    font-size: 40px;
     font-style: bold;
-    font-family: 'Open Sans', sans-serif;
     margin: 40px 0px 0px 170px;
+    font-weight: 800;
 
 }
 
@@ -13,30 +13,38 @@
 
 .hire_me_btn {
     background-color: #FD6E0A;
-    font-family: 'Open Sans', sans-serif;
     color: white;
     font-size: 15px;
     border: 0;
     border-radius: 4px;
     padding: 10px 20px;
+    font-weight: 550;
 }
 
 nav {
     display: flex;
     justify-content: space-between;
     background-color: #FFF8F3;
-
+    font-family: 'Open Sans', sans-serif;
 }
 
 nav>.li_nav {
     list-style: none;
     display: flex;
-    gap: 20px;
+    gap: 30px;
     margin: 40px 170px 0px 0px;
     align-items: center;
-
 }
 
 nav .li_nav a {
     text-decoration: none;
+    color: black;
+}
+
+
+/* Header-banner releted styles */
+.banner {
+    font-family: 'Open Sans', sans-serif;
+    margin: 40px 0px 0px 170px;
+    
 }
