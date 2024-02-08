@@ -1,10 +1,23 @@
 /* Header-navigation releted styles */
 .header_nav {
     background-color: #FFF8F3;
-    background-image: url('images/developer.png');
+    background-image: url('images/header_bg.png')
+        /*, url('images/developer.png')*/
+    ;
     background-repeat: no-repeat;
-    background-size: 85px;
-    margin: 0px 0px;
+    background-position: bottom right, top left;
+    background-size: 550px;
+    width: 100%;
+}
+
+.developer_bg {
+    position: absolute;
+    top: 5px;
+    left: 0px;
+    height: 625px;
+    width: 80px;
+    padding-left: 20px;
+
 }
 
 .my_first_name {
@@ -70,10 +83,7 @@ nav .li_nav a {
     font-family: 'Open Sans', sans-serif;
     margin: 0px 0px 0px 170px;
     display: flex;
-    background-image: url('images/header_bg.png');
-    background-repeat: no-repeat;
-    background-position: bottom right;
-    background-size: 550px;
+
 }
 
 .myself_in_short {
@@ -93,4 +103,21 @@ nav .li_nav a {
     height: 550px;
     width: 300px;
     padding-right: 100px;
+}
+
+
+/* About me style */
+
+.about {
+    height: 100px;
+    width: 40%;
+    background-color: #FFF8F3;
+    margin: 50px auto;
+    text-align: center;
+    padding: 100px 250px;
+}
+
+.person_about_info {
+    display: flex;
+    text-align: center;
 }
