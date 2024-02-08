@@ -1,8 +1,16 @@
 /* Header-navigation releted styles */
+.header_nav {
+    background-color: #FFF8F3;
+    background-image: url('images/developer.png');
+    background-repeat: no-repeat;
+    background-size: 85px;
+    margin: 0px 0px;
+}
+
 .my_first_name {
     font-size: 40px;
     font-style: bold;
-    margin: 40px 0px 0px 170px;
+    margin: 30px 0px 0px 170px;
     font-weight: 800;
 
 }
@@ -11,7 +19,9 @@
     color: #FD6E0A;
 }
 
-.hire_me_btn {
+.hire_me_btn,
+.dwnld_cv_btn,
+.contact_btn {
     background-color: #FD6E0A;
     color: white;
     font-size: 15px;
@@ -19,6 +29,13 @@
     border-radius: 4px;
     padding: 10px 20px;
     font-weight: 550;
+}
+
+.contact_btn {
+    color: #FD6E0A;
+    background-color: #FFF8F3;
+    border: 1px solid #FD6E0A;
+    padding: 9px 19px;
 }
 
 nav {
@@ -41,10 +58,39 @@ nav .li_nav a {
     color: black;
 }
 
+.dwnld_cv_btn,
+.contact_btn {
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
 
 /* Header-banner releted styles */
 .banner {
     font-family: 'Open Sans', sans-serif;
-    margin: 40px 0px 0px 170px;
-    
+    margin: 0px 0px 0px 170px;
+    display: flex;
+    background-image: url('images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 550px;
+}
+
+.myself_in_short {
+    color: gray;
+}
+
+.banner_element {
+    padding: 120px 300px 0px 0px;
+    gap: 30px;
+}
+
+.my_full_name {
+    font-size: 50px;
+}
+
+.my_image {
+    height: 550px;
+    width: 300px;
+    padding-right: 100px;
 }
