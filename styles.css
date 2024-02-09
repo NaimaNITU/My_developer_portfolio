@@ -109,15 +109,61 @@ nav .li_nav a {
 /* About me style */
 
 .about {
-    height: 100px;
+
     width: 40%;
     background-color: #FFF8F3;
-    margin: 50px auto;
+    margin: 70px auto;
     text-align: center;
-    padding: 100px 250px;
+    padding: 100px 200px;
 }
 
 .person_about_info {
     display: flex;
     text-align: center;
+    justify-content: space-between;
 }
+
+.about_me_title {
+    font-size: 28px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.about_me_description {
+    color: gray;
+}
+
+/* what do i do section */
+.what_do_i_do_title {
+    font-size: 28px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.what_do_i_do {
+    width: 60%;
+    background-color: white;
+    margin: 70px auto;
+    text-align: center;
+
+}
+
+.all_skills {
+    display: flex;
+    gap: 20px;
+}
+
+.single_coding_skills {
+    background-color: #F8F8FF;
+    padding: 30px;
+    text-align: left;
+}
+
+.what_do_i_do_details {
+    color: gray;
+    padding: 20px 90px;
+}
+
+.skill_details {
+    color: gray;
+    ;
+}
+
