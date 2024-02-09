@@ -193,6 +193,7 @@ nav .li_nav a {
     color: gray;
     font-size: 15px;
 }
+
 .experience_name,
 .degree_name {
     margin: 0px;
@@ -214,7 +215,7 @@ nav .li_nav a {
     border-radius: 4px;
     padding: 10px 20px;
     font-weight: 550;
-    margin: 40px 0px;
+    margin: 20px 0px 20px 0px;
 }
 
 hr {
@@ -223,3 +224,40 @@ hr {
 }
 
 /* footer design */
+.full_footer {
+    display: flex;
+    background-color: #FFF8F3;
+    font-family: 'Open Sans', sans-serif;
+    width: 60%;
+    margin: 70px auto;
+    text-align: left;
+}
+
+.each_footer {
+    margin: 50px;
+}
+
+#person_name,
+#person_email {
+    padding: 15px 90px 15px 10px;
+    margin-bottom: 10px;
+    border: 0;
+    background-color: white;
+}
+
+#personal_mseg {
+    border: 0;
+    padding-left: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.submit_personal_mseg {
+    background-color: #FD6E0A;
+    color: white;
+    font-size: 15px;
+    border: 0;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-weight: 550;
+    margin: 10px 0px;
+}
