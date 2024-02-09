@@ -164,6 +164,62 @@ nav .li_nav a {
 
 .skill_details {
     color: gray;
-    ;
+
 }
 
+
+
+/* Resume Section */
+.resume_section {
+    font-family: 'Open Sans', sans-serif;
+    width: 60%;
+    background-color: white;
+    margin: 70px auto;
+    text-align: center;
+}
+
+.two_resume_column {
+    display: flex;
+    text-align: left;
+    gap: 15px;
+}
+
+.resume_column {
+    padding-left: 30px;
+}
+
+.degree_details,
+.experience_details {
+    color: gray;
+    font-size: 15px;
+}
+.experience_name,
+.degree_name {
+    margin: 0px;
+}
+
+.resume_title {
+    margin: 50px 0px;
+}
+
+.column_title {
+    margin: 30px 0px;
+}
+
+.download_cv {
+    background-color: #FD6E0A;
+    color: white;
+    font-size: 15px;
+    border: 0;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-weight: 550;
+    margin: 40px 0px;
+}
+
+hr {
+    margin: 30px 0px;
+    background-color: gray;
+}
+
+/* footer design */
